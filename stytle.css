@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    background: cyan;
+
+}
+
+
+#calculator{
+    margin: 0 auto;
+    position: relative;
+    
+    top: 100px;
+
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    background-color: white;
+}
+#result,#history,#result-text,#history-text{
+
+    height: 60px;
+  
+    background:white;
+   
+    margin: 10px 20px;
+    text-align: right;
+
+}
+
+
+#keyboard{
+    height: 400;
+
+    display: table;
+}
+
+
+.row{
+
+    display: table-row;
+    background-color: lightgray;
+}
+
+
+.operator, .number , .empty{
+    margin: 15px;
+
+    width: 50px;
+    height: 50px;   
+    border-radius: 50px;
+    border-width:0px;
+    background-color: grey;
+}
+
+.operator, .number{
+
+    cursor: pointer    ;
+}
+
+#add{
+    background-color: yellow;
+}
+
+
+    
+
+
